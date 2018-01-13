@@ -9,9 +9,9 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "Chun-Kai Chang"
 title_separator          : "-"
-name                     : "Your Name"
+name                     : "Chun-Kai Chang"
 description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -84,9 +84,9 @@ analytics:
 # Site Author
 author:
   name             : "Chun-Kai Chang"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  avatar           : "/assets/images/bio-photo.jpg"
+  bio              : "PhD student at UT Austin, computer architect, music lover"
+  location         : "Austin, TX"
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
@@ -102,7 +102,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : "chun-kai-chang-94432b119"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
