@@ -1,0 +1,14 @@
+---
+layout: single
+title:  "Notes on Floating-Point Operations"
+date:   2018-05-26 17:27:00 -0500
+categories: computer-arithmetic
+---
+
+Recently I have to study how floating-point (FP) operations are implemented in hardware. Although I learned those in my undergrad computer organization course, my knowledge is kind of rusty now, especially for the concept on rounding (e.g., guard bit, sticky bit, etc.). 
+
+I found [these lecture slides][fp-intro-slides] give a good intro, but the explanation of rounding is not clear to me. Therefore, I found [this note][fp-with-examples] useful because it comes with examples. [These slides][fp-impl-slides] cover the actual implementation of FP operations.
+
+[fp-intro-slides]: http://www.eng.utah.edu/~cs6830/Slides/FP5830x2.pdf
+[fp-with-examples]: http://pages.cs.wisc.edu/~markhill/cs354/Fall2008/notes/flpt.apprec.html
+[fp-impl-slides]: http://www.eng.utah.edu/~cs6830/Slides/FP-cktsx2.pdf
