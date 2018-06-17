@@ -1,0 +1,31 @@
+---
+title:  "Running Pin 2.14 on Linux with kernel version > 4"
+date:   2018-06-17 12:43:00 -0500
+categories: tool
+---
+Intel made a significant change of Pin from version 2 to 3. Users are forced to linked their tool with the provided [PinCRT][CRT]. However, it does not support features such as RTTI and modern C++11 that Pin 2.14 supports. To make Pin 2.14 run on newer Linux distributions, we have to make some changes.
+
+## Makefile 
+First, if you have gcc version > 5, the following patch needs to apply to the Unix makefile (`$PIN_ROOT/source/tools/Config/makefile.unix.config`). A related is reported [here][sst-issue].
+```
+343c343
+<     TOOL_CXXFLAGS_NOOPT += -DTARGET_IA32E -DHOST_IA32E -fPIC
+---
+>     TOOL_CXXFLAGS_NOOPT += -DTARGET_IA32E -DHOST_IA32E -fPIC -fabi-version=2 -D_GLIBCXX_USE_CXX11_ABI=0
+```
+
+## Launching Command
+It requires some special flags to make Pin 2.14 run on newer Linux kernel according to [this issue][zsim-issue]. 
+Here is a list of launching commands and the Linux distributions on which I managed to let Pin work:
+
+- Ubuntu 16.04:
+    
+    `$PIN_BIN -injection child -ifeellucky -t <your_tool.so> -- <app>`
+
+- OpenSUSE LEAP 42.3:
+
+    `$PIN_BIN -ifeellucky -t <your_tool.so> -- <app>`
+
+[CRT]: https://software.intel.com/sites/default/files/managed/8e/f5/PinCRT.pdf
+[zsim-issue]: https://github.com/s5z/zsim/issues/109
+[sst-issue]: https://github.com/sstsimulator/sst-elements/issues/625
