@@ -2,7 +2,7 @@
 title: "Publications"
 permalink: /publications/
 ---
-- **C. Chang**, S. Lym, N. Kelly, M. B. Sullivan, M. Erez, “Evaluating and Accelerating High-Fidelity Error Injection for HPC,” to appear at The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC). Dallas, TX. November, 2018.
+- **C. Chang**, S. Lym, N. Kelly, M. B. Sullivan, M. Erez, “Evaluating and Accelerating High-Fidelity Error Injection for HPC,” In Proceedings of The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC). Dallas, TX. November, 2018.
 - O. Subasi, **C. Chang**, M. Erez, S. Krishnamoorthy, "Characterizing the Impact of Soft Errors Affecting Floating-point ALUs using RTL-level Fault Injection," In Proceedings of the 47th International Conference on Parallel Processing (ICPP), p. 59. ACM. Eugene, OR. August, 2018.
 - **C. Chang**, S. Lym, N. Kelly, M. B. Sullivan, M. Erez, “Hamartia: A Fast and Accurate Error Injection Framework,” Workshop on Silicon Errors in Logic–System Effects (SELSE). Boston, MA. April, 2018. **Best of SELSE (invited to present at DSN 2018)**
 - H. Menon, **C. Chang**, K. Mohror and M. Erez, “Identifying Critical Variables Using Algorithmic Differentiation for a Realistic Fault Model,” Workshop on Silicon Errors in Logic–System Effects (SELSE). Boston, MA. April, 2018. 
