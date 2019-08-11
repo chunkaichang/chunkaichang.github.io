@@ -159,7 +159,7 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 #remote_theme: "mmistakes/minimal-mistakes"
-remote_theme: "mmistakes/minimal-mistakes@4.16.0"
+remote_theme: "mmistakes/minimal-mistakes@4.16.5"
 
 # Markdown Processing
 kramdown:
