@@ -20,6 +20,7 @@ I am currently developing [Hamartia](http://lph.ece.utexas.edu/users/hamartia/){
 As human errors account for >90% of car accidents in the US, Autonomous Driving is an emerging technology to improve road user safety. 
 Since autonomous vehicles heaviliy depend on electronic devices to fulfill their missions, standards such as ISO 26262 state that it is cruical to address the effects of hardware faults on functional safety of autonomous vehicles. Error injection is thus neccessary to ensure that autonomous vehicles meet safety requirements.
 
-My focus is on understanding the impact of random hardware faults on software that runs in the vehicle using error injection. The end goal is to design safety mechanisms with low performance overhead.
+My focus is using error injection to understand the impact of random hardware faults on software that runs in the vehicle. 
+The end goal is to design safety mechanisms with low performance overhead.
 
 
