@@ -25,6 +25,7 @@ categories: tool
 
 
 - Suppress some warnings
+
 ```
 --- a/SConstruct
 +++ b/SConstruct
@@ -37,6 +38,7 @@ categories: tool
 ```   
 
 - Modify `src/pin_cmd.cpp` to let Pin 2.14 runs on this Linux version. See previous [post]({% post_url 2018-06-17-pin-notes %}).
+
 ```
 --- a/src/pin_cmd.cpp
 +++ b/src/pin_cmd.cpp
@@ -71,6 +73,7 @@ categories: tool
 ```
 
 ## Additional patches for gcc 7.4
+
 ```
 --- a/src/zsim.cpp
 +++ b/src/zsim.cpp
