@@ -7,7 +7,6 @@ I am pursuing PhD in computer engineering at The University of Texas at Austin u
 
 My research focus is on error injection and acceleration. See the [Research](/research) page for details. Check my [resume][my-resume] to learn more about me.
 
-I am available on job market now, targeting research/engineering positions on resilience engineering and performance modeling.  
 
 [mattan]: https://lph.ece.utexas.edu/merez/MattanErez/MattanErez
 [my-resume]: https://docs.google.com/document/d/1lhwMTSmOlZ-VBHObxSAYNw7I-UXiD4_cBucvd3XcYt8/edit?usp=sharing
