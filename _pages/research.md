@@ -1,7 +1,7 @@
----
-title: "Research"
-permalink: /research/
----
+#---
+#title: "Research"
+#permalink: /research/
+#---
 I am doing research in the following areas:
 - Error Injection and Acceleration 
 - Functional Safety for Autonomous Vehicles
