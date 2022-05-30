@@ -1,0 +1,3 @@
+[submodule "my-chord-book"]
+	path = my-chord-book
+	url = https://github.com/chunkaichang/my-chord-book.git
